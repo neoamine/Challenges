@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rubik",sans-serif;
+}
+
+body{
+    background-color: rgb(253, 253, 253);
+}
+
+.challenges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+    width: 400px;
+    min-height: 500px;
+    margin: 200px auto;
+}
+
+.challenges a{
+    background-color: rgb(221, 218, 212);
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(58, 53, 53);
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(61, 60, 60);
+}
