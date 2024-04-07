@@ -120,9 +120,7 @@ nav .container {
 
 
 
-.st-1 {
-    margin-bottom: 195px;
-}
+
 
 .st-1 h2{
     margin-bottom: 25px;
@@ -290,6 +288,7 @@ footer ul li:nth-child(1) {
     .container {
         width: 700px;
     }
+   
     nav .container{
         flex-direction: row;
     }
@@ -300,11 +299,13 @@ footer ul li:nth-child(1) {
         margin-bottom: 700px;
     }
     .st-1 .content {
-        position: absolute;
+        
         left: 0;
         width: 100%;
-        margin-bottom: 100px;
+        
         display: flex;
+        
+        
         
         
     }
@@ -312,7 +313,7 @@ footer ul li:nth-child(1) {
         display: inline;
         transform: translateX(-4%);
         margin: 0;
-        width: 650px;
+        width: 600px;
     }
     .st-1 .content ul{
 
@@ -387,6 +388,13 @@ footer ul li:nth-child(1) {
         
     }
 
+
+}
+
+@media(min-width:1400px){
+    .st-1{
+        margin-bottom: 500px;
+    }
 }
 
 
